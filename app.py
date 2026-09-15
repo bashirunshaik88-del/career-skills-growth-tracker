@@ -1,3 +1,7 @@
+import streamlit as st
+
+st.title("Career Skills Growth Tracker")
+st.write("Welcome to the app!")
 from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
